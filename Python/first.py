@@ -100,4 +100,6 @@
 # print(list)
 
 
-
+# nums = (10, 564, 4, 64, 5,  1, 6, 54, 5, 5)
+# index_one = nums.index(5)
+# print(index_one)
