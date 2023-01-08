@@ -85,9 +85,6 @@
 # print(list)
 
 
-
-
-
 # TASK
 # input = {input('kalit soz\'ni kiriting: ')
 #          :input('kalitni qiymatini kiriting: '),
@@ -103,3 +100,27 @@
 # nums = (10, 564, 4, 64, 5,  1, 6, 54, 5, 5)
 # index_one = nums.index(5)
 # print(index_one)
+
+# myNums = (6, 5, 67, 23, 45)
+# myList = list(myNums)
+# myList.append(654)
+# myNums = tuple(myList)
+
+# print(myList)
+# print(myNums)
+
+
+# fistTuple = (5,6,47,65)
+# secondTuple = (True,'sadasf')
+# print(fistTuple+secondTuple)
+
+
+# set = {1, 6, 9, 965, 6,3,3,5,3,3,3,3,3,3,}
+# print(type(set))
+# print(set)
+
+
+b = {'a', 'f', 'd'}
+s = {'abc', 'd', 'f', 'y', 'a'}
+d = s.union('59')
+print(b.issubset(s))
