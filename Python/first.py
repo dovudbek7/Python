@@ -58,3 +58,46 @@
 # int_price = float(price)
 
 # print(int_price)
+
+
+# list = ['abc', '123', True, '&*', False]
+
+# del list[3]
+# # second_list = list.
+# second_list = ['hhh', 556, False], list.copy()
+# six = second_list[0]
+# print(list, len(list))
+# print(second_list)
+
+
+# input = ['jhsdfbs', 6464.66, True, False]
+# input.pop(0)
+# print(input)
+
+
+# listOne = ['abc', 654, True]
+# listTue = [65, False, 'ttt']
+
+# listThird = listOne + listTue
+# list = listOne.__add__(listTue)
+
+# print(listOne, listTue, listThird)
+# print(list)
+
+
+
+
+
+# TASK
+# input = {input('kalit soz\'ni kiriting: ')
+#          :input('kalitni qiymatini kiriting: '),
+#          input('kalit soz\'ni kiriting: ')
+#          :input('kalitni qiymatini kiriting: '),
+#          input('kalit soz\'ni kiriting: ')
+#          :input('kalitni qiymatini kiriting: '),
+#          }
+# list = input.copy()
+# print(list)
+
+
+
