@@ -120,7 +120,16 @@
 # print(set)
 
 
-b = {'a', 'f', 'd'}
-s = {'abc', 'd', 'f', 'y', 'a'}
-d = s.union('59')
-print(b.issubset(s))
+# b = {'a', 'f', 'd'}
+# s = {'abc', 'd', 'f', 'y', 'a'}
+# d = s.union('59')
+# print(b.issubset(s))
+
+# a = {5, 9, 7, 6, 78}
+# b = {5, 45, 98, 6, 32, 78}
+# c = a.intersection(b)
+# a.add(1)
+# print(a)
+# print(c)
+
+# print('salom')
