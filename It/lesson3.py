@@ -95,12 +95,12 @@
 #         print(letter[0]+1, letter[1])
 
 
-count = 0
-while True:
-    user = int(input('sonni kiriting:  '))
+# count = 0
+# while True:
+#     user = int(input('sonni kiriting:  '))
     
-    if user >= len(2) :
-        continue
-    else:
-        print('xato')
-print(count)
+#     if user >= len(2) :
+#         continue
+#     else:
+#         print('xato')
+# print(count)
