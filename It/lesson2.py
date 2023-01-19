@@ -53,7 +53,7 @@
 # print(1 > 0 or 1 == 0)  # True
 # print(1 < 0 or 1 == 0)  # Flase
 
-# in, is , npt, not in , is not, and , or
+# in, is , not, not in , is not, and , or
 
 # print(not True)  # False
 # print(not False)  # True
