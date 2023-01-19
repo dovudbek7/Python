@@ -60,12 +60,4 @@
 #     print(arr3)
 
 
-arr1 = 25
-arr2 = 15
-arr3 = 120
-if :
-    print(arr1)
-elif arr1 > arr2 > arr3:
-    print(arr2)
-else:
-    print(arr3)
+)
