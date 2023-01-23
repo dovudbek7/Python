@@ -61,13 +61,13 @@
 # print(len(s.strip()))
 # print(s.split(','))  # [' salom', 'xayr', ' qale']
 #  assalomu alaykum bizda gaz svet yo\'q sizlarning Gazingiz bormi svetlaringchi
-user = input('write.. ')
-lower = user.lower()
+# user = input('write.. ')
+# lower = user.lower()
 
-g = lower.count('gaz')
-s = lower.count('svet')
-y = lower.count('yoq')
-print(f'gaz = {g}')
-print(f'svet = {s}')
-print(f'yoq = {y}')
+# g = lower.count('gaz')
+# s = lower.count('svet')
+# y = lower.count('yoq')
+# print(f'gaz = {g}')
+# print(f'svet = {s}')
+# print(f'yoq = {y}')
 # print(lower.find('svet'))
