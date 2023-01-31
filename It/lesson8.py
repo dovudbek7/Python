@@ -49,7 +49,7 @@ d['age'] = 20
 #             print(False)
 
 # Task 8
-user = input('..')
+# user = input('..')
 
 
-print(f'{int(user[0:2])-15}')
+# print(f'{int(user[0:2])-15}')
