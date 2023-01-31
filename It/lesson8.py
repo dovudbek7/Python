@@ -1,6 +1,6 @@
-d = {}
-d['name'] = 'John Doe'
-d['age'] = 20
+# d = {}
+# d['name'] = 'John Doe'
+# d['age'] = 20
 
 # for item in d.keys():
 #     print(item)
@@ -24,7 +24,7 @@ d['age'] = 20
 
 # Task 4
 # import random
-# from faker import Faker
+# from faker import Faker   
 # fake = Faker()
 # users = {}
 # for i in range(30):
