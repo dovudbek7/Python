@@ -29,7 +29,7 @@
 
 
 # print((year - splits[0]), (month - splits[1]))
-    
+
 # from timeit import Timer
 
 
@@ -52,74 +52,41 @@
 # print("While : \n", t.timeit(number=1000))
 
 
+
 # Task 7
-# 12 ta ishchi ism familyasini Faker orqali hosil qiling
-# har bir ishchi 12 oy davomida (1 yil) har bir oyda ma'lum bir miqdorda oylik maosh olgan
-# oylik maoshlar stabil oylik maosh summasidan ishchini ishlashiga qarab ayrim oylarda +5% ko'proq , ayrim oylarda -5% kamroq bo'lishi mumkin. Siz ushbu malumotlardan foydalanib hisoblashingiz kerak. 
-# 1-Har bir ishchini 12 oyda olgan umumiy ish haqi summasi 
-# 2- Har bir ishchini kvartallar boyicha ish haqlarini 
-# 3- yil davomida eng ko'p maosh olgan ishchini 
-# 4- yil davomida eng kam moash olgan ishchini 
-# 5- eng kop maosh olgan ishchini eng kam olgan  bilan oyliklari o'rtasidagi farqni
-
-
-
-# import random
 # from faker import Faker
+# import random
+# import math
 
-# fake = Faker()
+# f = Faker()
 
-# worker = []
-# monthly = [[],[],[],[],[],[],[],[],[],[],[],[],]
-
+# arr = []
+# ob = {}
 # for i in range(12):
-#     name = fake.name()
-#     worker.append(name)
-# index_arr = -1
-# for k in range(156):
-#     if k == 12 or k == 24 or k == 36 or k == 48 or k == 60 or k == 72 or k == 84 or k == 96 or k == 108 or k == 120 or k == 132 or k == 144 or k == 156 :
-#         index_arr += 1
-#         for x in range(12):
-#             random_monthliy = random.randint(1000 , 7000)
-#             random_multiplier = random.randint(0 , 1)
-#             if random_multiplier == 0:
-#                 random_monthliy - (random_monthliy * 0.5)
-#             else:
-#                 random_monthliy + (random_monthliy * 0.5)
-#             monthly[index_arr].append(random_monthliy)
-
-# worker_list = {}
-# for i in range(12):
-#     worker_list.update({worker[i]:sum(monthly[i])})
-# # print(f"barcha ishchilar yilligi:\n{worker_list}")
-# first_index = -1
-# second_index = 0
-# third_index = -3
-# for i in range(48):
-#     if i == 4 or i == 8 or i == 12 or i == 16 or i == 20 or i == 24 or i == 28 or i == 32 or i == 36 or i == 40 or i == 44 or i == 48:
-#         first_index = first_index + 1
-#         for a in range(4):
-#             # print(sum(monthly[first_index][third_index : second_index]))
-#             second_index = second_index + 3
-#             third_index = third_index + 3
-#             print(monthly[first_index][3:6])
-#             print(monthly[index_arr])
+#     salary = random.randrange(1000000, 15000000,1000000)
+#     print(salary)
+#     users = f.name()
+#     pr = salary * 5 // 100 
+#     for m in range(random.randint(1, 6)):
+#         salary += pr
+#         plus = salary
+#     for w in range(random.randint(1,6)):
+#         salary -= pr
+#         minus = salary
+#     year = (salary * 12) + (m * pr) - (w * pr)
+#     kv = year // 4
+#     d = {users : year}
+#     ob.update(d)
+#     arr.append(year)
+#     print(f'Har bir ishchini 12 oyda olgan umumiy ish haqi summasi {users} : {year}')
+#     print(f'Har bir ishchini kvartallar boyicha ish haqlari {users} : {kv}')
+# arr.sort()   
+# max_salary = arr[-1]
+# z = list(ob.keys())[list(ob.values()).index(max_salary)]
+# min_salary = arr[0]
+# x = list(ob.keys())[list(ob.values()).index(min_salary)]
+# print(f'yil davomida eng kop maosh olgan ishchin {z} {max_salary}')
+# print(f'yil davomida eng kam maosh olgan ishchin {x} {min_salary}')
+# print(f' eng kop maosh olgan ishchini eng kam olgan ortasidagi farq {max_salary - min_salary}')1
 
 
-
-# Task 7
-from faker import Faker
-import random
-fake = Faker()
-for i in range(12):
-    workers_name = fake.name()
-    print(workers_name)
-
-for y in range(12):
-    months = random.randint(1000, 7000)
-    months_round = round(months)
-    print(months)
-# alpha = "abcdefgh"
-# print(list(zip(alpha, list(range(len(alpha))))))
-# [('a', 0), ('b', 1), ('c', 2), ('d', 3), ('e', 4), ('f', 5), ('g', 6), ('h', 7)]
-# letters = list(zip(alpha, list(range(len(alpha)))))
