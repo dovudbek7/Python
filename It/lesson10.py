@@ -48,10 +48,10 @@
 
 
 # print(main(6)
-from benchmark import banchmark
+# from benchmark import banchmark
 
 
-@banchmark(func)
-def fetch_wabpage():
-    import request
-    webpage = request.get('https://google.com')
+# @banchmark(func)
+# def fetch_wabpage():
+#     import request
+#     webpage = request.get('https://google.com')
