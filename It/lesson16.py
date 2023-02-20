@@ -29,8 +29,7 @@ print(user.split())
 
         
 
-.
-.
+
 
 
 
