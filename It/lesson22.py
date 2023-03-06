@@ -25,16 +25,16 @@ from faker import Faker
 # print(passed)
 # print(nop)
 
-f = Faker()
-for i in range(30):
-    students = f.name()
-    res = []
-    for b in range(4):
-        point = random.randint(2, 5)
-        res.append(point)
-    s = sum(res)
-    if i % 2 == 0:
-        print(students)
+# f = Faker()
+# for i in range(30):
+#     students = f.name()
+#     res = []
+#     for b in range(4):
+#         point = random.randint(2, 5)
+#         res.append(point)
+#     s = sum(res)
+#     if i % 2 == 0:
+#         print(students)
 
     
 
