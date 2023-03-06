@@ -37,4 +37,3 @@ from faker import Faker
 #         print(students)
 
     
-
